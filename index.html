@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Friday 27 November, 14:00 to 16:00, Central Seoul. A relaxed afternoon with the CEMS community before the graduation weekend. Sign up by 20 November.">
+<meta name="theme-color" content="#9DBBDA">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CEMS Coffee Chats in Seoul">
+<meta property="og:description" content="Friday 27 November, 14:00 to 16:00, Central Seoul. A relaxed afternoon with the CEMS community before the graduation weekend. Sign up by 20 November.">
+<meta property="og:url" content="https://tenosway.github.io/cems-coffee-chats/">
+<meta property="og:image" content="https://tenosway.github.io/cems-coffee-chats/poster.jpg">
+<meta property="og:image:width" content="736">
+<meta property="og:image:height" content="920">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>CEMS Coffee Chats in Seoul</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Jost:wght@400..700&display=swap">
+<style>
+/* Layout: the poster's own sky is the page. A blurred copy of it fills the background, the poster sits in it without a frame, and the details continue on a band in the lettering's red. One fixed look taken from the artwork. */
+:root{
+  --sky:#9DBBDA; --ink:#1B2433; --red:#AD393A; --red-deep:#8A2729; --red-dark:#5F1A1D;
+  --cream:#F7EFE4; --cream-soft:#EBCFC6; --rule:#F7EFE440;
+  --font-display:'Aboreto','Marcellus',Georgia,serif;
+  --font-body:'Jost','Avenir Next','Segoe UI',system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--sky);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+h1,p,dl,dd{margin:0}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+.page{position:relative;min-height:100%;overflow:hidden;background:var(--sky)}
+.backdrop{position:absolute;inset:-70px;background:var(--sky) url(poster.jpg) center top/cover no-repeat;filter:blur(38px) saturate(1.05);transform:translate3d(calc(var(--mx,0) * 14px),calc(var(--my,0) * 10px),0) scale(1.08)}
+
+.top{position:relative;display:flex;justify-content:space-between;align-items:center;gap:14px;max-width:1000px;margin-inline:auto;padding-block:14px;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+.logo{display:block;height:28px;width:auto;justify-self:end;margin-top:4px;filter:invert(1)}
+.top p{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;line-height:1.3;color:var(--ink)}
+
+.sheet{position:relative;display:grid;max-width:520px;margin-inline:auto}
+.sheet > *{min-width:0}
+
+/* the poster */
+.flyer{position:relative;width:100%;max-width:100%;aspect-ratio:736/920;overflow:hidden;container-type:inline-size;background:var(--sky)}
+.fitbox{position:absolute;inset:0 0 auto 0;aspect-ratio:736/920;transform-origin:50% 0;transform:scale(var(--fit,1))}
+.stage{position:absolute;inset:0;transform:scale(calc(1.045 + var(--sc,0) * .03))}
+.layer{position:absolute;inset:0;will-change:transform}
+.photo{transform:translate3d(calc(var(--mx,0) * -6px),calc(var(--my,0) * -5px + var(--sc,0) * 8px),0)}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.clouds{top:34%;bottom:36%;overflow:hidden;mix-blend-mode:screen;opacity:.42;transform:translate3d(calc(var(--mx,0) * -16px),calc(var(--my,0) * -6px),0)}
+.clouds::before{content:"";position:absolute;inset:0 -100% 0 0;background:radial-gradient(ellipse 22% 38% at 12% 46%,#FFFFFFCC,#FFFFFF00 70%),radial-gradient(ellipse 16% 30% at 34% 62%,#FFFFFFAA,#FFFFFF00 70%),radial-gradient(ellipse 22% 38% at 62% 46%,#FFFFFFCC,#FFFFFF00 70%),radial-gradient(ellipse 16% 30% at 84% 62%,#FFFFFFAA,#FFFFFF00 70%)}
+.fx{transform:translate3d(calc(var(--mx,0) * 9px),calc(var(--my,0) * 6px),0)}
+.fx canvas{width:100%;height:100%;display:block}
+.words{transform:translate3d(calc(var(--mx,0) * -6px),calc(var(--my,0) * -5px + var(--sc,0) * 8px),0)}
+.star-l{transform:translate3d(calc(var(--mx,0) * -6px),calc(var(--my,0) * -5px + var(--sc,0) * 8px),0)}
+
+.title{position:absolute;left:5.7%;right:4.9%;bottom:88.7%;color:var(--red);font-family:var(--font-display);font-weight:400;font-size:5.2cqw;line-height:1;letter-spacing:.01em;text-transform:uppercase;white-space:nowrap}
+.title span{display:inline-block}
+.note{position:absolute;color:var(--red-deep);font-size:3.5cqw;font-weight:600;line-height:1.26;letter-spacing:.09em;text-transform:uppercase;white-space:nowrap}
+.note span{display:block}
+.when{left:6.4%;top:36%}
+.where{right:5.6%;top:42.4%;text-align:right}
+.gw{left:5.7%;bottom:7.4%;color:var(--cream);font-size:3.2cqw;text-shadow:0 1px 8px #1B2433B3}
+.star{position:absolute;left:49.3%;top:22.07%;width:9.6cqw;height:11.4cqw;margin:-5.7cqw 0 0 -4.8cqw;color:var(--red)}
+.star svg{width:100%;height:100%;display:block;overflow:visible}
+
+/* the details, on the lettering's red */
+.panel{position:relative;display:grid;gap:22px;align-content:start;background:var(--red);color:var(--cream);padding-block:18px 30px;padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}
+.btn{order:-1;display:flex;justify-content:center;align-items:center;height:58px;border-radius:999px;background:var(--cream);color:var(--red-dark);font-size:17px;font-weight:650;letter-spacing:.14em;text-transform:uppercase;line-height:1;text-decoration:none;transition:background .2s}
+.btn span{display:flex;align-items:center;gap:.6em}
+.btn svg{width:17px;height:17px;transition:transform .28s cubic-bezier(.2,.8,.2,1)}
+.btn:hover{background:#FFFFFF}
+.btn:hover svg{transform:translate(3px,-3px)}
+.lead{font-size:18px;line-height:1.45;max-width:28em}
+.facts{display:grid;border-top:1px solid var(--rule)}
+.facts div{display:grid;grid-template-columns:6.6em minmax(0,1fr);gap:12px;align-items:baseline;padding-block:14px;border-bottom:1px solid var(--rule)}
+.facts dt{font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--cream-soft)}
+.facts dd{font-family:var(--font-display);font-size:25px;line-height:1.15;letter-spacing:.01em;text-transform:uppercase}
+.facts dd small{display:block;margin-top:5px;font-family:var(--font-body);font-size:15px;line-height:1.4;letter-spacing:0;text-transform:none;color:var(--cream-soft)}
+.cd{white-space:nowrap;font-variant-numeric:tabular-nums}
+.contacts{display:grid;justify-items:start;gap:4px;font-size:14.5px;color:var(--cream-soft)}
+.contacts a,.contacts b{color:var(--cream);font-weight:600}
+.contacts a{text-underline-offset:3px}
+.contacts b{user-select:all}
+.credit{font-size:12.5px;color:var(--cream-soft)}
+
+@media (min-width:600px){
+  .page{padding-block:28px 32px}
+  .sheet{border-radius:22px;overflow:hidden;box-shadow:0 30px 70px -30px #1B243399}
+}
+@media (min-width:920px){
+  .page{padding-inline:28px;padding-block:36px 40px}
+  .sheet{max-width:1000px;grid-template-columns:minmax(0,520px) minmax(0,1fr)}
+  .flyer{aspect-ratio:auto;height:100%;min-height:650px}
+  .panel{align-content:center;gap:24px;padding:clamp(30px,4vw,52px)}
+  .btn{order:0}
+  .lead{font-size:20px}
+  .logo{position:absolute;right:clamp(30px,4vw,52px);bottom:26px;height:30px;margin:0}
+}
+
+@media (prefers-reduced-motion:no-preference){
+  .photo img{animation:settle 1.8s cubic-bezier(.2,.7,.2,1) both}
+  .title span{animation:up .9s cubic-bezier(.2,.8,.2,1) .35s both}
+  .note span{animation:up .8s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(.7s + var(--i,0) * 110ms)}
+  .star svg{animation:pop .9s cubic-bezier(.2,1.4,.4,1) .9s both,twinkle 4.6s ease-in-out 1.8s infinite}
+  .clouds::before{animation:drift 70s linear infinite}
+  @keyframes settle{from{opacity:0;transform:scale(1.07)}}
+  @keyframes up{from{opacity:0}}
+  @keyframes pop{from{opacity:0;transform:scale(.2) rotate(-40deg)}}
+  @keyframes twinkle{0%,100%{transform:scale(1)}50%{transform:scale(.9)}}
+  @keyframes drift{to{transform:translateX(-50%)}}
+}
+@media (prefers-reduced-motion:reduce){
+  .btn span,.btn svg{transition:none}
+}
+</style>
+</head>
+<body>
+<div class="page" id="page">
+  <div class="backdrop" aria-hidden="true"></div>
+
+  <main class="sheet">
+    <div class="flyer" id="flyer">
+      <div class="fitbox" id="fitbox"><div class="stage">
+        <div class="layer photo"><img src="poster.jpg" width="736" height="920" alt="Poster with the word SEOUL in red over a blue sky, above the N Seoul Tower on Namsan in autumn colours."></div>
+        <div class="layer clouds" aria-hidden="true"></div>
+        <div class="layer fx" aria-hidden="true"><canvas id="fx"></canvas></div>
+        <div class="layer words">
+          <h1 class="title" id="title"><span>CEMS Coffee Chats in</span><span class="sr"> Seoul</span></h1>
+          <p class="note when"><span style="--i:0">Fri 27 Nov</span><span style="--i:1">14:00–16:00</span></p>
+          <p class="note where"><span style="--i:2">Central Seoul</span></p>
+          <p class="note gw"><span style="--i:4">Graduation Week 2026</span></p>
+        </div>
+        <div class="layer star-l" aria-hidden="true">
+          <div class="star"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="currentColor" d="M50 0C53 36 64 47 100 50 64 53 53 64 50 100 47 64 36 53 0 50 36 47 47 36 50 0Z"/></svg></div>
+        </div>
+      </div></div>
+    </div>
+
+    <section class="panel">
+      <p class="lead rise">A relaxed afternoon of coffee chats with the CEMS community, before the ceremony weekend kicks off.</p>
+      <dl class="facts">
+        <div class="rise"><dt>When</dt><dd>Fri 27 Nov<small>14:00–16:00. Be there from the start.</small></dd></div>
+        <div class="rise"><dt>Where</dt><dd>Central Seoul<small>Venue shared with registered guests.</small></dd></div>
+        <div class="rise"><dt>Sign up by</dt><dd>Fri 20 Nov<small><span id="left">18:00 Seoul time.</span> <span class="cd" id="cd" role="timer" aria-label="Time left to sign up">8d 18h 30m 00s left</span></small></dd></div>
+      </dl>
+      <a class="btn" id="register" href="https://docs.google.com/forms/d/17ICFkKum51oZnlRqI5R1O6hxk39T3eVc2_SW4WasAJ8/viewform" target="_blank" rel="noopener"><span>Register now
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 15 15 5M7 5h8v8"/></svg></span>
+      </a>
+      <p class="contacts rise"><span>Hosted by CEMS Club Seoul</span><a href="https://www.instagram.com/cemsclubseoul/" target="_blank" rel="noopener">@cemsclubseoul</a><b>cemsclubseoul@gmail.com</b></p>
+      <img class="logo" src="cems-logo.png" width="640" height="178" alt="CEMS">
+    </section>
+  </main>
+</div>
+
+<script>
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)');
+  var page = $('page'), flyer = $('flyer'), title = $('title');
+
+  /* ---------- deadline: Fri 20 Nov 2026, 18:00 KST ---------- */
+  var DEADLINE = Date.UTC(2026, 10, 20, 9, 0, 0), timer = 0, extra = '';
+  try {
+    var o = { weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit', hour12:false }, dd = new Date(DEADLINE);
+    var seoul = new Intl.DateTimeFormat('en-GB', Object.assign({ timeZone:'Asia/Seoul' }, o)).format(dd);
+    var local = new Intl.DateTimeFormat('en-GB', o).format(dd);
+    if (local !== seoul) extra = ' (' + local + ' your time)';
+  } catch (e) {}
+  function two(n){ return (n < 10 ? '0' : '') + n; }
+  $('left').textContent = '18:00 Seoul time' + extra + '.';
+  function tick(){
+    var ms = DEADLINE - Date.now();
+    if (ms <= 0){ $('cd').textContent = 'The deadline has passed.'; clearInterval(timer); return; }
+    var s = Math.floor(ms / 1000), d = Math.floor(s / 86400), h = Math.floor(s % 86400 / 3600), m = Math.floor(s % 3600 / 60);
+    $('cd').textContent = d + 'd ' + two(h) + 'h ' + two(m) + 'm ' + two(s % 60) + 's left';
+  }
+  tick(); timer = setInterval(tick, 1000);
+
+  /* ---------- title: same width as the big word under it ---------- */
+  var tspan = title.firstElementChild;
+  function fit(){
+    var avail = title.clientWidth; if (!avail) return;
+    title.style.fontSize = '100px';
+    var w = tspan.getBoundingClientRect().width; if (!w){ title.style.fontSize = ''; return; }
+    title.style.fontSize = Math.min(100 * avail / w, flyer.clientWidth * .074) + 'px';
+  }
+  fit();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+
+  /* ---------- falling leaves ---------- */
+  var cv = $('fx'), ctx = cv.getContext && cv.getContext('2d');
+  var COLORS = ['#C4472D', '#E28A3B', '#A8321F', '#D9632F', '#B93A22'], GOLD = ['#F2B24C', '#E9C24A', '#F0A63A'];
+  // unit-size outlines: 0 maple, 1 ginkgo, 2 plain leaf
+  function half(pts){ var all = pts.slice(), i; for (i = pts.length - 1; i >= 0; i--) if (pts[i][0] !== 0) all.push([-pts[i][0], pts[i][1]]); return all; }
+  var MAPLE = half([[0,-1],[.17,-.5],[.42,-.66],[.36,-.3],[.74,-.5],[.7,-.26],[1,-.2],[.72,.02],[.8,.14],[.42,.2],[.5,.42],[.1,.3],[.05,.34],[.05,.92]]);
+  var SHAPES = [null, null, null];
+  if (window.Path2D){
+    var m = new Path2D(), q;
+    for (q = 0; q < MAPLE.length; q++) m[q ? 'lineTo' : 'moveTo'](MAPLE[q][0], MAPLE[q][1]);
+    m.closePath(); SHAPES[0] = m;
+    var g = new Path2D();
+    g.moveTo(.05, .95); g.lineTo(.05, .38); g.quadraticCurveTo(.5, .2, .96, -.3); g.quadraticCurveTo(.62, -.92, .09, -.72); g.lineTo(0, -.42); g.lineTo(-.09, -.72);
+    g.quadraticCurveTo(-.62, -.92, -.96, -.3); g.quadraticCurveTo(-.5, .2, -.05, .38); g.lineTo(-.05, .95); g.closePath(); SHAPES[1] = g;
+    var p = new Path2D(); p.moveTo(0, -1); p.quadraticCurveTo(.75, -.2, 0, 1); p.quadraticCurveTo(-.75, -.2, 0, -1); p.closePath(); SHAPES[2] = p;
+  }
+  var W = 0, H = 0, leaves = [], time = 0;
+  var ptr = { x: -9999, y: -9999, on: false };
+  function seed(){
+    var n = W < 480 ? 13 : 21; leaves = [];
+    for (var i = 0; i < n; i++){
+      var k = i % 3, pal = k === 1 ? GOLD : COLORS;
+      leaves.push({ k: k, x: Math.random() * W, y: H * (.3 + Math.random() * .7), s: W * (k === 0 ? .017 + Math.random() * .012 : k === 1 ? .014 + Math.random() * .01 : .011 + Math.random() * .011), vy: W * (.022 + Math.random() * .03), p: Math.random() * 6.28, rot: Math.random() * 6.28, vr: (Math.random() - .5) * 1.6, c: pal[(i / 3 | 0) % pal.length], ux: 0, uy: 0 });
+    }
+  }
+  function stepLeaves(dt){
+    var R = W * .2, damp = Math.pow(.05, dt), i, l, dx, dy, d, f;
+    for (i = 0; i < leaves.length; i++){
+      l = leaves[i];
+      if (ptr.on){ dx = l.x - ptr.x; dy = l.y - ptr.y; d = Math.sqrt(dx * dx + dy * dy) || 1; if (d < R){ f = 1 - d / R; f = f * f * W * 2.4 * dt; l.ux += dx / d * f; l.uy += dy / d * f; } }
+      l.ux *= damp; l.uy *= damp;
+      l.x += (Math.sin(time * .8 + l.p) * W * .03 + W * .012) * dt + l.ux;
+      l.y += l.vy * dt + l.uy; l.rot += l.vr * dt;
+      if (l.y > H + 20){ l.y = H * .3; l.x = Math.random() * W; l.ux = l.uy = 0; }
+      if (l.x > W + 20) l.x = -15; else if (l.x < -20) l.x = W + 15;
+    }
+  }
+  function drawLeaves(){
+    if (!ctx || !W) return;
+    ctx.clearRect(0, 0, W, H);
+    for (var i = 0; i < leaves.length; i++){
+      var l = leaves[i], a = Math.max(0, Math.min(1, (l.y - H * .3) / (H * .08)));
+      ctx.save(); ctx.globalAlpha = a * .94; ctx.translate(l.x, l.y); ctx.rotate(l.rot); ctx.scale(l.s * (.55 + .45 * Math.abs(Math.sin(time * 1.3 + l.p))), l.s);
+      ctx.fillStyle = l.c;
+      if (SHAPES[l.k]) ctx.fill(SHAPES[l.k]); else { ctx.beginPath(); ctx.arc(0, 0, .7, 0, 6.3); ctx.fill(); }
+      ctx.restore();
+    }
+  }
+  function resize(){
+    fit();
+    var w = Math.round(flyer.clientWidth), h = Math.round(w * 920 / 736);
+    if (w) flyer.style.setProperty('--fit', Math.max(1, flyer.clientHeight / (w * 920 / 736)).toFixed(4));
+    if (!ctx || !w || !h || (w === W && h === H)) return;
+    var first = !W; W = w; H = h;
+    var dpr = Math.min(2, window.devicePixelRatio || 1);
+    cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    if (first || !leaves.length) seed();
+    if (!reduce.matches) drawLeaves();
+  }
+
+  /* ---------- mouse and scroll micro-movement ---------- */
+  var tx = 0, ty = 0, mx = 0, my = 0, sc = 0, tsc = 0, raf = 0, last = 0;
+  var rises = Array.prototype.slice.call(document.querySelectorAll('.rise')), rv = rises.map(function(){ return 0; }), rt = rises.map(function(){ return 0; });
+  function readScroll(){
+    var r = flyer.getBoundingClientRect(), vh = window.innerHeight || 1;
+    tsc = r.top >= 0 ? 0 : Math.min(1, -r.top / Math.max(1, r.height));
+    for (var i = 0; i < rises.length; i++){
+      var top = rises[i].getBoundingClientRect().top - rv[i];
+      rt[i] = Math.max(0, Math.min(1, (top - vh * .8) / (vh * .3))) * 26;
+    }
+  }
+  function frame(now){
+    raf = 0;
+    var dt = Math.min(.05, (now - last) / 1000 || 0); last = now; time += dt;
+    var k = Math.min(1, dt * 6);
+    mx += (tx - mx) * k; my += (ty - my) * k; sc += (tsc - sc) * Math.min(1, dt * 9);
+    page.style.setProperty('--mx', mx.toFixed(4)); page.style.setProperty('--my', my.toFixed(4)); page.style.setProperty('--sc', sc.toFixed(4));
+    for (var i = 0; i < rises.length; i++){
+      rv[i] += (rt[i] - rv[i]) * Math.min(1, dt * 8);
+      if (Math.abs(rt[i] - rv[i]) < .05) rv[i] = rt[i];
+      rises[i].style.setProperty('--r', rv[i].toFixed(2));
+    }
+    stepLeaves(dt); drawLeaves();
+    if (!document.hidden && !reduce.matches) raf = requestAnimationFrame(frame);
+  }
+  function kick(){ if (!raf && !document.hidden && !reduce.matches){ last = performance.now(); raf = requestAnimationFrame(frame); } }
+
+  resize();
+  if (window.ResizeObserver) new ResizeObserver(resize).observe(flyer); else addEventListener('resize', resize);
+  if (!reduce.matches){
+    readScroll(); for (var i = 0; i < rises.length; i++){ rv[i] = rt[i]; rises[i].style.setProperty('--r', rv[i].toFixed(2)); }
+    addEventListener('scroll', readScroll, { passive: true });
+    addEventListener('resize', readScroll);
+    addEventListener('pointermove', function(e){
+      if (e.pointerType === 'touch') return;
+      tx = (e.clientX / (window.innerWidth || 1) - .5) * 2; ty = (e.clientY / (window.innerHeight || 1) - .5) * 2;
+      var r = flyer.getBoundingClientRect(); ptr.x = e.clientX - r.left; ptr.y = e.clientY - r.top;
+      ptr.on = ptr.x > -40 && ptr.y > -40 && ptr.x < r.width + 40 && ptr.y < r.height + 40;
+    });
+    document.documentElement.addEventListener('pointerleave', function(){ tx = ty = 0; ptr.on = false; });
+    document.addEventListener('visibilitychange', kick);
+    kick();
+  }
+  if (reduce.addEventListener) reduce.addEventListener('change', function(){ if (reduce.matches){ if (ctx) ctx.clearRect(0, 0, W, H); } else kick(); });
+
+  /* ---------- magnetic button label (mouse only) ---------- */
+  var btn = $('register');
+  if (matchMedia('(hover: hover) and (pointer: fine)').matches){
+    btn.addEventListener('pointermove', function(e){
+      if (reduce.matches) return;
+      var r = btn.getBoundingClientRect();
+      btn.style.setProperty('--bx', ((e.clientX - r.left) / r.width - .5) * 14 + 'px');
+      btn.style.setProperty('--by', ((e.clientY - r.top) / r.height - .5) * 8 + 'px');
+    });
+    btn.addEventListener('pointerleave', function(){ btn.style.setProperty('--bx', '0px'); btn.style.setProperty('--by', '0px'); });
+  }
+})();
+</script>
+</body>
+</html>
